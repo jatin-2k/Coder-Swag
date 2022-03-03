@@ -7,8 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CategoryVC: UIViewController {
 
+    @IBOutlet weak var categoriesTable: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
