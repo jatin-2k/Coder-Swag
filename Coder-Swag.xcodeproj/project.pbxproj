@@ -17,6 +17,8 @@
 		DFD0022D27D070C4009CE897 /* Coder_SwagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD0022C27D070C4009CE897 /* Coder_SwagUITests.swift */; };
 		DFD0022F27D070C4009CE897 /* Coder_SwagUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD0022E27D070C4009CE897 /* Coder_SwagUITestsLaunchTests.swift */; };
 		DFD0023F27D07866009CE897 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD0023E27D07866009CE897 /* CategoryCell.swift */; };
+		DFD0024227D07BAC009CE897 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD0024127D07BAC009CE897 /* DataService.swift */; };
+		DFD0024427D07C44009CE897 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD0024327D07C44009CE897 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		DFD0022C27D070C4009CE897 /* Coder_SwagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coder_SwagUITests.swift; sourceTree = "<group>"; };
 		DFD0022E27D070C4009CE897 /* Coder_SwagUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coder_SwagUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DFD0023E27D07866009CE897 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		DFD0024127D07BAC009CE897 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DFD0024327D07C44009CE897 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		DFD0020A27D070C4009CE897 /* Coder-Swag */ = {
 			isa = PBXGroup;
 			children = (
+				DFD0024027D07B8F009CE897 /* Services */,
 				DFD0023D27D0772B009CE897 /* Models */,
 				DFD0023C27D07725009CE897 /* Views */,
 				DFD0023B27D07711009CE897 /* Controllers */,
@@ -150,8 +155,17 @@
 		DFD0023D27D0772B009CE897 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DFD0024327D07C44009CE897 /* Category.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		DFD0024027D07B8F009CE897 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DFD0024127D07BAC009CE897 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +303,8 @@
 				DFD0020C27D070C4009CE897 /* AppDelegate.swift in Sources */,
 				DFD0020E27D070C4009CE897 /* SceneDelegate.swift in Sources */,
 				DFD0023F27D07866009CE897 /* CategoryCell.swift in Sources */,
+				DFD0024227D07BAC009CE897 /* DataService.swift in Sources */,
+				DFD0024427D07C44009CE897 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
